@@ -31,5 +31,5 @@ Instructions
     python rendering.py
 The results will be generate in the results folder
 Documentation:
-    Final/results/report.html
+    Final/docs/report.html
 
