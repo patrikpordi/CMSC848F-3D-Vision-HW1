@@ -1,0 +1,5 @@
+Theme: minima
+plugins:
+  - jekyll-relative-linksTheme: minima
+plugins:
+  - jekyll-relative-links
