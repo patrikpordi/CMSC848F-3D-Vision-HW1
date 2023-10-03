@@ -10,7 +10,7 @@ Rendering your first mesh
 My first rendered mesh is a cow.
 <!---add the image of my first mesh from images/cow_render.jpg using html md style from the root folder-->
 
-![Rendering the first mesh](../results/my_cow_mesh.png)
+![Rendering the first mesh](my_cow_mesh.png)
 
 Practicing with Cameras
 ===============================================================================
@@ -21,16 +21,16 @@ My first 360-degree renders are the following cows:
 
 
 <figure style="text-align: center;">
-    <img src="../results/my_cow_turntable.gif" alt="360 degree render of the cow mesh" />
+    <img src="my_cow_turntable.gif" alt="360 degree render of the cow mesh" />
     <figcaption>360 degree render of the cow mesh</figcaption>
 </figure>
 <figure style="text-align: center;">
-    <img src="../results/colored_turntable.gif" alt="360 degree render of the cow mesh" />
+    <img src="colored_turntable.gif" alt="360 degree render of the cow mesh" />
     <figcaption>360 degree render of the colored cow mesh</figcaption>
 </figure>
 
 <figure style="text-align: center;">
-    <img src="../results/my_dolly_turntable.gif" alt="360 degree render of the cow mesh" />
+    <img src="my_dolly_turntable.gif" alt="360 degree render of the cow mesh" />
     <figcaption>360 degree render of the dolly cow mesh</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ effect.
 My implementation of the Dolly Zoom effect can be seen below.
 
 <figure style="text-align: center;">
-<img src="../results/my_dolly.gif" alt="Dolly Zoom" />
+<img src="my_dolly.gif" alt="Dolly Zoom" />
 <figcaption>Dolly Zoom effect on the cow mesh</figcaption>
 </figure>
   
@@ -75,7 +75,7 @@ coordinates.
 
 
 <figure style="text-align: center;">
-<img src="../results/my_tetra_turntable.gif" alt="Tetrahedron" />
+<img src="my_tetra_turntable.gif" alt="Tetrahedron" />
 <figcaption>Tetrahedron mesh render and 360 degree gif</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ to represent one face of the cube.
 **Answer:** The cube should have **8 vertices** and **12 faces**.
 
 <figure style="text-align: center;">
-<img src="../results/my_cube_turntable.gif" alt="Cube" />
+<img src="my_cube_turntable.gif" alt="Cube" />
 <figcaption>Cube mesh render and 360 degree gif</figcaption>
 </figure>
 
@@ -108,7 +108,7 @@ cow.
 **Answer:** `Color_1`  `Light Green (0.2,0.8,0.2)` and `Color_2` `Blue (0,0,1)` . The gif of the rendered mesh is shown below.
 
 <figure style="text-align: center;">
-<img src="../results/colored_turntable.gif" alt="Cow Color" />
+<img src="colored_turntable.gif" alt="Cow Color" />
 <figcaption>Re-textured cow 360-degree rendered gif</figcaption>
 </figure>
 
@@ -167,10 +167,10 @@ The relative camera transformations that would produce each of the output images
 
 | Image | R_relative | T_relative | Description |
 | --- | --- | --- | --- |
-| <div style="background-color: black; padding: 2px;"><img src="../results/rotate_1.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 3\end{bmatrix}\) | The camera is <br> rotated 90 degrees about <br> the z-axis. |
-| <div style="background-color: black; padding: 2px;"><img src="../results/rotate_2.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 0 & 0 & -1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 3\end{bmatrix}\) | The camera is <br> rotated 90 degrees about the <br> y-axis and  translated by <br> 3 units along the z axis. |
-| <div style="background-color: black; padding: 2px;"><img src="../results/rotate_3.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 6\end{bmatrix}\) | The camera is <br> translated backwards <br> by 6 units along the <br> z-axis. |
-| <div style="background-color: black; padding: 2px;"><img src="../results/rotate_4.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0.5 \\ -0.5 \\ 3\end{bmatrix}\) | The camera is <br> translated along <br> all 3 axis: <br> By 0.5 units along <br> the x axis; <br> By -0.5 units along <br> the y axis; <br> & <br> By 3 units along <br> the z axis. |
+| <div style="background-color: black; padding: 2px;"><img src="rotate_1.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 3\end{bmatrix}\) | The camera is <br> rotated 90 degrees about <br> the z-axis. |
+| <div style="background-color: black; padding: 2px;"><img src="rotate_2.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 0 & 0 & -1 \\ 0 & 1 & 0 \\ 1 & 0 & 0 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 3\end{bmatrix}\) | The camera is <br> rotated 90 degrees about the <br> y-axis and  translated by <br> 3 units along the z axis. |
+| <div style="background-color: black; padding: 2px;"><img src="rotate_3.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0 \\ 0 \\ 6\end{bmatrix}\) | The camera is <br> translated backwards <br> by 6 units along the <br> z-axis. |
+| <div style="background-color: black; padding: 2px;"><img src="rotate_4.png" style="max-width: 100%;"></div> | \(\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}\) | \(\begin{bmatrix}0.5 \\ -0.5 \\ 3\end{bmatrix}\) | The camera is <br> translated along <br> all 3 axis: <br> By 0.5 units along <br> the x axis; <br> By -0.5 units along <br> the y axis; <br> & <br> By 3 units along <br> the z axis. |
 
 Parametric Functions
 ===============================================================================
@@ -199,27 +199,27 @@ values.
 **Answer:** The pictures and the gifs of the point clouds are the following:
 
 <figure style="text-align: center;">
-<img src="../results/plant_0.png" alt="Point Cloud of first image" />
+<img src="plant_0.png" alt="Point Cloud of first image" />
 <figcaption>Image first image's point cloud</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/plant_rot_0.gif" alt="Point Cloud of first image" />
+<img src="plant_rot_0.gif" alt="Point Cloud of first image" />
 <figcaption>360 Render of the first image's point cloud</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/plant_1.png" alt="Point Cloud of first image" />
+<img src="plant_1.png" alt="Point Cloud of first image" />
 <figcaption>Image of the second image's point cloud</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/plant_rot_1.gif" alt="Point Cloud of first image" />
+<img src="plant_rot_1.gif" alt="Point Cloud of first image" />
 <figcaption>360 Render of the second image's point cloud</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/plant_2.png" alt="Point Cloud of first image" />
+<img src="plant_2.png" alt="Point Cloud of first image" />
 <figcaption>Image of the union of the first two point clouds</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/plant_rot_2.gif" alt="Point Cloud of first image" />
+<img src="plant_rot_2.gif" alt="Point Cloud of first image" />
 <figcaption>360 Render of the union of the first two point clouds</figcaption>
 </figure>
 
@@ -231,11 +231,11 @@ the hole is visible. You may choose to texture your point cloud however you wish
 **Answer:** The picture and the gif of the torus point cloud are the following:
 
 <figure style="text-align: center;">
-<img src="../results/torus_para.png" alt="Torus Point Cloud" />
+<img src="torus_para.png" alt="Torus Point Cloud" />
 <figcaption>Image of the torus point cloud</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/torus_para_rot.gif" alt="Torus Point Cloud" />
+<img src="torus_para_rot.gif" alt="Torus Point Cloud" />
 <figcaption>360 Render of the torus point cloud</figcaption>
 </figure>
 
@@ -252,11 +252,11 @@ ease of use, memory usage, etc.**
 The image and gif of the torus mesh using Implicit Surfaces are the following:
 
 <figure style="text-align: center;">
-<img src="../results/torus_implicit.png" alt="Torus Mesh" />
+<img src="torus_implicit.png" alt="Torus Mesh" />
 <figcaption>Image of the torus mesh using Implicit Surfaces</figcaption>
 </figure>
 <figure style="text-align: center;">
-<img src="../results/torus_implicit_rot.gif" alt="Torus Mesh" />
+<img src="torus_implicit_rot.gif" alt="Torus Mesh" />
 <figcaption>360 Render of the torus mesh using Implicit Surfaces</figcaption>
 </figure>
 
